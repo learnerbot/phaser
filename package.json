@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_handlebars_example",
+  "version": "1.0.0",
+  "description": "Node.js with Handlebars example",
+  "author": "Gergo Peter Nagy <gergo.peter.nagy@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0"
+  }
+}
