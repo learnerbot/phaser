@@ -1,10 +1,11 @@
-var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+var game = new Phaser.Game(512, 512, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update, render: render });
 
 function preload() {
 
     game.load.tilemap('desert', 'assets/desert.json', null, Phaser.Tilemap.TILED_JSON);
     game.load.image('tiles', 'assets/desert_spacing.png');
 
+    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 }
 
 var map;
@@ -50,10 +51,6 @@ function resize() {
             layer.resize(w, h);
         }
     }
-
-}
-
-function randomiseTiles() {
 
 }
 
