@@ -6,6 +6,8 @@ This project is currently under **development**.
 
 This is a simple example to understand the basics of **Phaser**.
 
+Note that you can find very goog examples on github about how to create games with **Phaser**. The current example implemented in this project is copied from [Phaser Coding Tips - issue 5](https://github.com/photonstorm/phaser-coding-tips/tree/master/issue-005).
+
 ## Dependencies
 
 ### Runtime dependencies
